@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Clipping</title>
+    <style>
+        .clip-main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+<div class="clip-main">
+    <div>
+        <button onclick="pressRectBtn()">Rect</button>
+        <button onclick="pressLineBtn()">Line</button>
+        <button onclick="suthHodgClip()">Clip</button>
+    </div>
+    <canvas id="clipCanvas" width="800" height="600" style="border:1px solid #000000;"></canvas>
+</div>
+</body>
+<script type="text/javascript" src="index.js"></script>
+</html>

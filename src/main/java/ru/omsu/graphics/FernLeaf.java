@@ -64,7 +64,7 @@ public class FernLeaf {
             xTemp = (int) (x * width + bufferedImage.getWidth() / 2);
             yTemp = (int) (y * height) * (-1) + bufferedImage.getHeight();
 
-            bufferedImage.setRGB((int) xTemp, (int) yTemp,  functionNumber == 3 ? color : colors[functionNumber]);
+            bufferedImage.setRGB((int) xTemp, (int) yTemp, functionNumber == 3 ? color : colors[functionNumber]);
             color = bufferedImage.getRGB((int) xTemp, (int) yTemp);
         }
         try {
